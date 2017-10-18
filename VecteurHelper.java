@@ -2,8 +2,8 @@
 public class VecteurHelper 
 {	
 	int tab [] = new int [5];
-	int max=0;
-	int min=0;	
+	int max=tab[0];
+	int min=tab[0];	
 	
 	public VecteurHelper() {for(int i=0; i<5; i++) tab[i]= 0;}
 
